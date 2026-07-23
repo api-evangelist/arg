@@ -1,7 +1,29 @@
 aid: arg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arg.png
 name: ARG
-description: ARG is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GoodPeople (ARG) is a boardriding community platform and e-commerce brand for
+  skiers and snowboarders, operating under the tagline "Where the boardriding
+  family meets." It publishes freeride competition results and rankings across
+  events such as the Freeride World Tour (FWT), the IFSA Freeride World Qualifier
+  (FWQ), and the World Rookie Snowboard Finals, alongside a blog covering event
+  highlights, athlete spotlights, and freeride footage. The company also runs an
+  online shop selling apparel, accessories, and lifestyle products, with a
+  sustainability program that plants one tree for every purchase. It was surfaced
+  as a portfolio company of 500 Global and added to the API Evangelist network as
+  a stub for enrichment. No public API, developer portal, or OpenAPI surface was
+  found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/arg/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Community
+- Sports
+- Snowboarding
+- Skiing
+- Freeride
+- Events
+- Ecommerce
+- Lifestyle
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,10 @@ maintainers:
 common:
 - type: Website
   url: https://goodpeople.com
+- type: DomainSecurity
+  url: security/arg-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
